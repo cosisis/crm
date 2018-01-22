@@ -19,7 +19,7 @@ public class CheckHelper {
     private static final String BANKCARD_REG = "^1[0-9]{10}$";
 
     // todo del
-    private static final String test="";
+    private static final String test="123test";
 
     /**
      * 过滤emoji
