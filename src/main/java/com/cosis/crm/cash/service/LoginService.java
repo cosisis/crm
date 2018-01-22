@@ -8,6 +8,6 @@ import org.springframework.stereotype.Service;
 public class LoginService {
 
     public Result login(UserInfo info){
-
+        return null;
     }
 }
