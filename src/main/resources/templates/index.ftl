@@ -1,9 +1,9 @@
 <html lang="en">
 
 <body>
-name: ${name}
+name:${user.name}
 <br>
-nickname: ${nickname}
+nickname:${user.pwd}
 <br>
 </body>
 

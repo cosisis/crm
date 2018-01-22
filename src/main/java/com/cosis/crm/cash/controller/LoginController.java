@@ -19,6 +19,7 @@ public class LoginController {
     String doLogin(Model model,
                    @ModelAttribute UserInfo info){
 
+        model.addAttribute("user",info);
         return "index";
     }
 
