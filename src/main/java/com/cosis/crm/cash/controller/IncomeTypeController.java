@@ -23,7 +23,7 @@ public class IncomeTypeController {
 
     @GetMapping("save")
     String save(Model model, int id,String type_name ){
-
+        log.info(" id : {}, typename: {}" , id, type_name);
 
         System.out.println("IncomeTypeController.save");
         IncomeType type = new IncomeType();
