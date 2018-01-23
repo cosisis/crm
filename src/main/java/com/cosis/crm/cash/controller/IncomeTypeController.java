@@ -22,9 +22,13 @@ public class IncomeTypeController {
     IncomeTypeService service;
 
     @GetMapping("save")
-    String save(Model model,
-                   @ModelAttribute IncomeType type){
+    String save(Model model, int id,String type_name ){
+
+
         System.out.println("IncomeTypeController.save");
+        IncomeType type = new IncomeType();
+        type.setId(id);
+        type.setType_name(type_name);
         service.add(type);
         return query(model);
     }
