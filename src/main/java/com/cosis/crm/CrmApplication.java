@@ -20,8 +20,7 @@ public class CrmApplication extends WebMvcConfigurerAdapter{
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/static/**")
-                .addResourceLocations("classpath:/static/");
+        registry.addResourceHandler("/static/**");
     }
 
 	public static void main(String[] args) {

@@ -6,17 +6,20 @@ import java.util.Date;
 
 /**
  * @author cosis
- * 收入类别
+ * 理财类别
  */
 @Data
 public class IncomeType {
 
+    /**
+     * 主键id
+     */
     private int id;
 
+    /**
+     * 理财类型名称
+     */
     private String type_name;
 
-    private String create_name;
-
-    private Date create_time;
 
 }
