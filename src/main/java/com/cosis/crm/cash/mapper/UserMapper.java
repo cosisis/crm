@@ -20,6 +20,6 @@ public interface UserMapper {
     /**
      * 根据名称查找用户
      */
-    @Select("SELECT * " + " FROM " + TABLE + " WHERE usercode=#{usercode} AND password=#{password} ")
+    @Select("SELECT * " + " FROM " + TABLE + " WHERE usercode=#{usercode} AND    password=#{PASSWORD} ")
     UserInfo getUser_name_password(@Param("usercode") String usercode, @Param("PASSWORD") String PASSWORD);
 }
