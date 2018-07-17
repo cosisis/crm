@@ -13,6 +13,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
 
+/**
+ * 收入类别处理
+ */
 @Slf4j
 @Controller
 @RequestMapping("/crm/incomeType")

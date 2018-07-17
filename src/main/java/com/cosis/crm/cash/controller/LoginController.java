@@ -1,5 +1,6 @@
 package com.cosis.crm.cash.controller;
 
+import com.cosis.crm.cash.annotation.CosisLog;
 import com.cosis.crm.cash.domain.entity.UserInfo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
@@ -10,8 +11,11 @@ import org.springframework.ui.Model;
 
 import java.util.Date;
 
-@Slf4j
+/**
+ * 登录处理
+ */
 @Controller
+@CosisLog(topic = "LoginController")
 @RequestMapping("/crm/login")
 public class LoginController {
 
