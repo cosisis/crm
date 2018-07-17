@@ -16,7 +16,6 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import java.math.BigDecimal;
 import java.util.Date;
 
-@Service
 public interface IncomeService {
 
     /**
