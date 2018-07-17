@@ -1,9 +1,7 @@
 <html lang="en">
 
 <body>
-name:${user.name}
-<br>
-nickname:${user.pwd}
+欢迎：${user.username} ，登录系统。
 <br>
 </body>
 
