@@ -22,4 +22,6 @@ public class IncomeType {
     private String type_name;
 
 
+
+
 }

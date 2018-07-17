@@ -4,6 +4,10 @@ font-family: 'Open Sans', sans-serif;
  background: #FFf;
 }
 
+body h1 {
+    color: red;
+}
+
 body a {
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -3047,4 +3051,138 @@ ul.bottom i {
 		padding: 1.2em 1em 1.5em 1em;
 		border-right: none;
 	}
+
+}
+
+.typeName {
+    height: 68px;
+    width: 500px;
+    font-family: '微软雅黑';
+    font-size: 48px;
+    font-weight: bold;
+    font-style: normal;
+    color: #66cc99;
+    border-radius: 10px;
+    border: 1px solid #00aaad;
+    background-color: transparent;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    text-align: left;
+    vertical-align: center;
+}
+.button {
+    width: 154px;
+    height: 68px;
+    line-height: 68px;
+    text-align: center;
+    border: 1px solid #00aaad;
+    color: #00aaad;
+    padding-bottom: 50px;
+    top: 0px;
+}
+
+.div {
+    text-align: center;
+}
+.div_Info {
+    text-align: left;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.div_table {
+    text-align: center;
+    padding-left: 10%;
+    width: auto;
+}
+.money {
+    FONT-SIZE: 20px;
+    TEXT-DECORATION: none;
+    FONT-FAMILY: 微软雅黑;
+    FONT-WEIGHT: bold;
+    COLOR: #ff6600;
+    FONT-STYLE: normal
+}
+
+
+
+
+#table-2 {
+    width: 90%;
+    margin: 0px auto 0;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+#table-2 th {
+    padding: 0.75em 1.5em;
+}
+#table-2 thead {
+    color: #fff;
+    background-color: #31bc86;
+}
+#table-2 thead th {
+    text-align: center;
+}
+#table-2 tbody {}
+#table-2 tbody tr {
+    border-bottom: 2px dashed #000;
+    cursor: default;
+    transition: all .125s ease-in-out;
+}
+#table-2 tbody tr:hover {
+    background-color: rgba(129,208,177,.3);
+}
+#table-2 tbody tr.event-bgColor {
+    background-color: rgba(255, 192, 203, .2);
+}
+#table-2 tbody tr.default-bgColor {
+    background-color: #fff;
+}
+#table-2 tbody tr.hover-bgColor {
+    background-color: rgb(255, 192, 203);
+}
+#table-2 tbody tr.selected-bgColor {
+    background-color: rgb(255, 192, 203);
+}
+#table-2 tbody tr td {
+    text-align: center;
+}
+/* Alternating background colors  交替行样式
+#table-2 tbody tr:nth-child(even) {
+    background: rgb(230, 189, 189)
+}
+#table-2 tbody tr:nth-child(odd) {
+    background: #FFF
+}
+*/
+.checkedTr {
+    background-color: rgb(255, 192, 203);
+}
+
+
+.intyfont {
+    font-family: 微软雅黑;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    color: #A6A6A6;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.u1 {
+
+    height: 32px;
+    width: 180px;
+    font-family: '微软雅黑';
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    color: #66cc99;
+    border-radius: 10px;
+    border: 1px solid #00aaad;
+    background-color: transparent;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    text-align: left;
+    vertical-align: center;
 }

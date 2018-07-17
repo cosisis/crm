@@ -50,7 +50,7 @@ public class IncomeInfo {
     /**
      * 到期日
      */
-    private int endDate;
+    private int end_date;
 
     /**
      * 投资天数
@@ -60,7 +60,7 @@ public class IncomeInfo {
     /**
      * 创建人
      */
-    private String create_name;
+    private String user_id;
 
     /**
      * 创建时间

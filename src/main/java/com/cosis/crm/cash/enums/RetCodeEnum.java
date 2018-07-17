@@ -53,7 +53,18 @@ public enum RetCodeEnum {
     WECARD_ERROR_NULL_SUNLINEBILL(51,"请求长亮接口获取已出账单失败,请重试"),
     WECARD_ERROR_NULL_SUNLINEUNSETBILL(52,"请求长亮接口获取未出账单失败,请重试"),
     WECARD_ERROR_NULL_SUNLINELIST(53,"请求长亮接口获取账单详情失败,请重试"),
-    WECARD_ERROR_NULL_STMTNO(54,"账期为空");
+    WECARD_ERROR_NULL_STMTNO(54,"账期为空"),
+
+    //理财类型维护相关
+    COMMON_ERROR_NULL_INCOMETYPE_TYPENAME(60,"理财类型名称不能为空!"),
+    COMMON_ERROR_NULL_INCOMETYPE_ID(61,"理财类型ID不能为空!"),
+    COMMON_ERROR_NULL_INCOMETYPE_ADD(62,"添加失败，请重试!"),
+    COMMON_ERROR_NULL_INCOMETYPE_DEL(63,"删除失败，请重试!"),
+    COMMON_ERROR_NULL_INCOMETYPE_UPDATE(64,"修改失败，请重试!"),
+    COMMON_ERROR_NULL_INCOMETYPE_SAVE(65,"保存失败，理财类型名称不能重复!"),
+
+    //理财信息
+    COMMON_ERROR_NULL_INCOMEINFO_ADD(70,"添加失败，请重试!");
 
     private int type;
 

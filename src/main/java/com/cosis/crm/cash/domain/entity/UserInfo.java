@@ -7,11 +7,11 @@ public class UserInfo {
 
     private int id;
 
-    private String nick_name;
+    private String usercode;
 
-    private String name;
+    private String password;
 
-    private String pwd;
+    private String username;
 
     /**
      * 薪资日
