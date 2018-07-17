@@ -16,27 +16,26 @@ import java.util.List;
  * @author lz
  */
 @Service
-public class IncomeTypeService {
+public interface IncomeTypeService {
 
-    @Autowired
-    IncomeTypeMapper typeMapper;
 
     /**
      * 添加 理财类型
      * @param incomeType
      * @return
      */
-    public Result add (IncomeType incomeType){
-        Result result = new Result();
-        result.setRetEnum((typeMapper.add(incomeType) > 0) ? RetCodeEnum.OK : RetCodeEnum.COMMON_ERROR_TRY_AGAIN) ;
-        return result;
-    }
+    public Result save (IncomeType incomeType);
+
+    /**
+     * 删除 理财类型
+     * @param incomeType
+     * @return
+     */
+    public Result del (IncomeType incomeType);
 
     /**
      * 查询已有的理财类型列表
      * @return
      */
-    public List<IncomeType> query(){
-        return typeMapper.getAll();
-    }
+    public List<IncomeType> query();
 }
