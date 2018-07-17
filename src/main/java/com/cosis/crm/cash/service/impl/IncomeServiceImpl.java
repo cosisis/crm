@@ -16,12 +16,11 @@ public class IncomeServiceImpl implements IncomeService {
     @Autowired
     IncomeInfoMapper infoMapper;
 
-
     @Override
     public Result add(IncomeInfo info) {
         log.info("info.getIncome_type:{},info.getPrincipal:{},info.getRate:{},info.getProfit:{},info.getBegin_date:{}",info.getIncome_type(),info.getPrincipal(),info.getRate(),info.getProfit(),info.getBegin_date());
         Result result = new Result();
-        result.setRetEnum((infoMapper.add(info) > 0) ? RetCodeEnum.OK : RetCodeEnum.COMMON_ERROR_NULL_INCOMEINFO_ADD) ;
+      //  result.setRetEnum((infoMapper.add(info) > 0) ? RetCodeEnum.OK : RetCodeEnum.COMMON_ERROR_NULL_INCOMEINFO_ADD) ;
         return result;
     }
 }
