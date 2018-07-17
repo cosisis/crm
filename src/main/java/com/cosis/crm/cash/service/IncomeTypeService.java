@@ -15,7 +15,6 @@ import java.util.List;
  * 理财类型
  * @author lz
  */
-@Service
 public interface IncomeTypeService {
 
 

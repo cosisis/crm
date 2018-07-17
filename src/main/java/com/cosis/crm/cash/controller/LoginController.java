@@ -18,8 +18,9 @@ import java.util.Date;
 /**
  * 登录处理
  */
-@Slf4j(topic = "LoginController")
+@Slf4j
 @CosisLog(topic = "LoginController")
+@Controller
 @RequestMapping("/crm/login")
 public class LoginController {
 
@@ -32,7 +33,7 @@ public class LoginController {
     String doLogin(Model model,
                    @ModelAttribute UserInfo info){
         UserInfo user = service.query(info.getUsercode(),info.getPassword());
-        LoginController.log.info("doLogin usercode : {}, password: {}" , info.getUsercode(), info.getPassword());
+        log.info("doLogin usercode : {}, password: {}" , info.getUsercode(), info.getPassword());
         if(user!=null) {
             model.addAttribute("user", user);
             return "index";
