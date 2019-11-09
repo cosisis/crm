@@ -13,17 +13,10 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 import java.util.Date;
 
-@ComponentScan
 @SpringBootApplication
-@ServletComponentScan
-public class CrmApplication extends WebMvcConfigurerAdapter{
+public class CrmApplication{
 
-    @Override
-    public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/static/**");
-    }
-
-	public static void main(String[] args) {
+  	public static void main(String[] args) {
 		SpringApplication.run(CrmApplication.class, args);
 	}
 }
