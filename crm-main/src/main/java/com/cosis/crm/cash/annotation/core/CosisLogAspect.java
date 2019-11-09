@@ -15,7 +15,7 @@ import java.lang.reflect.Method;
 
 @Slf4j
 @Aspect
-@Component
+//@Component
 public class CosisLogAspect {
 
     public static final String dateformat = "yyyy:MM:dd HH:mm:ss";

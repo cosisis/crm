@@ -89,7 +89,7 @@ spring:
     expire: 2592000
 # MyBatis
 mybatis:
-  type-aliases-package: com.cosis.crm.shiro.persistence.beans
+  type-aliases-package: com.cosis.crm.shiro.persistence.beans,com.cosis.crm.cash.mapper
   mapper-locations: classpath:/mybatis/*.xml
 # mapper
 mapper:
